@@ -1,1 +1,110 @@
+---
+title: "FThotel"
+author: "Farha Hussaini"
+date: "2023-06-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(readr)
+library(tidyverse)
+library(dplyr)
+library(knitr)
+library(rmarkdown)
+library(ggplot2)
+library(sf)
+```
+
+```{r}
+json_Hotel_result <- read_csv("jsontoxml.csv")
+View(jsontoxml)
+
+Xml_Hotels_Result <- read_csv("Xml Hotels Result.csv")
+View(Xml_Hotels_Result)
+```
+
+```{r}
+names(json_Hotel_result)
+```
+
+```{r}
+names(Xml_Hotels_Result)
+```
+```{r}
+json_Hotel_result <- json_Hotel_result %>%
+  rename(HotelID = HotelCode) 
+
+```
+
+```{r}
+json_Hotel_result <- json_Hotel_result %>%
+rename(Available = IsReady)
+
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+rename(Currency = "_CURRENCY")
+```
+
+```{r}
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+  rename(HotelID = "_HOTEL_ID")
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+  rename(Available = "_AVAILABLE")
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+  rename(HotelsName = "_HOTEL_NAME")
+
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+rename(Location = "_LOCATION")
+
+
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+rename(LowestPrice = "_STARTING_PRICE")
+
+```
+
+```{r}
+Xml_Hotels_Result <- Xml_Hotels_Result %>%
+rename(Rating = "_RATING")
+```
+
+
+```{r}
+Xml_Hotels_Result2 <- Xml_Hotels_Result[,c('HotelID','Available','HotelsName','Location','LowestPrice','Currency','Rating')]
+```
+
+```{r}
+json_Hotel_result2 <- json_Hotel_result[,c('HotelID','Available','HotelsName','Location','LowestPrice','Currency','Rating')]
+```
+
+```{r}
+# Convert the boolean column to a string column
+json_Hotel_result2 <-json_Hotel_result2 %>%
+  mutate(Available = ifelse(Available, "yes", "no"))
+
+```
+
+```{r}
+hotel_results_combined <- rbind(Xml_Hotels_Result2 , json_Hotel_result2)
+```
+
+```{r}
+hotel_results_combined  <- hotel_results_combined  %>%
+rename(IsReady = "Available")
+```
+
+```{r}
+hotel_results_combined  <- hotel_results_combined  %>%
+rename(HotelRating = "Rating")
+```
+```{r}
+hotel_results_combined$HotelRating <- gsub("\\*", "", hotel_results_combined$HotelRating)
+```
+
+```{r}
+hotel_results_combined$HotelRating <- gsub("\\+", "", hotel_results_combined$HotelRating)
+```
+
 
