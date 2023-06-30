@@ -1,0 +1,23 @@
+ROOMS/ROOM/0/ROOMID,ROOMS/ROOM/0/ROOM_NAME,ROOMS/ROOM/0/OCCUPANCY,ROOMS/ROOM/0/ROOM_STATUS,ROOMS/ROOM/1/ROOMID,ROOMS/ROOM/1/ROOM_NAME,ROOMS/ROOM/1/OCCUPANCY,ROOMS/ROOM/1/ROOM_STATUS,_HOTEL_ID,_HOTEL_NAME,_LOCATION,_RATING,_AVAILABLE,_ISRECOMMENDEDPRODUCT,_STARTING_PRICE,_CURRENCY,ROOMS/ROOM/0/RULE_TEXT,ROOMS/ROOM/1/RULE_TEXT,ROOMS/ROOM/2/ROOMID,ROOMS/ROOM/2/ROOM_NAME,ROOMS/ROOM/2/OCCUPANCY,ROOMS/ROOM/2/ROOM_STATUS,ROOMS/ROOM/3/ROOMID,ROOMS/ROOM/3/ROOM_NAME,ROOMS/ROOM/3/OCCUPANCY,ROOMS/ROOM/3/ROOM_STATUS
+961874,Twin Room (Without Breakfast),2,AVAILABLE,961875,Double Room (Without Breakfast),3,AVAILABLE,7161,Migny Opera Montmartre Hotel,Pigalle,3 *,Yes,0,105.7600,EUR,,,,,,,,,,
+964618,Double Room Superior,3,AVAILABLE,,,,,7176,Opera Cadet Hotel,Cadet,4 *,Yes,0,197.3800,EUR,,,,,,,,,,
+73339,Double Room Deluxe,3,AVAILABLE,73344,Double Room Superior,3,AVAILABLE,16574,Plaza Tour Eiffel,Trocadero Station,4 *,Yes,0,227.3700,EUR,,,,,,,,,,
+80130,Double Room,3,AVAILABLE,80131,Twin Room,2,AVAILABLE,19090,Marena Hotel,Cadet,3 *,Yes,0,75.3500,EUR,25% rate reduction on all nights of the stay,25% rate reduction on all nights of the stay,,,,,,,,
+960285,Double Room Deluxe Suite,3,AVAILABLE,967850,Double Room Superior Special,3,AVAILABLE,21853,Pullman Paris Bercy Hotel,Cour St Emillon,4 *,Yes,0,155.0200,EUR,,,967852,Twin Room Superior Special,2,AVAILABLE,967854,Double Room Deluxe Suite Special,3,AVAILABLE
+259360,Twin Room Studio (Without Breakfast),2,AVAILABLE,,,,,22416,Residhome Courbevoie la Defense,La Defense,4 *,Yes,0,62.3500,EUR,10% rate reduction for all nights,,,,,,,,,
+822916,Double Room Superior,3,AVAILABLE,909589,Double Room Classic,3,AVAILABLE,34332,Kube Hotel - NON REFUNDABLE ROOM,La Chapelle,4 *,Yes,0,197.8900,EUR,5% reduction on rates,5% reduction on rates,,,,,,,,
+908621,Double Room Classic,3,AVAILABLE,,,,,34333,1K Hotel - NON REFUNDABLE ROOM,Filles du Calvaire,4 *,Yes,0,279.0700,EUR,5% reduction on rates,,,,,,,,,
+967746,Double Room Superior Special,3,AVAILABLE,967747,Twin Room Superior Special,2,AVAILABLE,35958,Pullman Versailles Chateau Hotel,RER Versailles,4 *,Yes,0,123.3600,EUR,,,,,,,,,,
+703240,Twin Room,2,AVAILABLE,703241,Double Room,3,AVAILABLE,44194,Royal Mansart Hotel,Blanche,3 *,Yes,0,74.0300,EUR,,,,,,,,,,
+720685,Double Room Studio,3,AVAILABLE,720686,Twin Room Studio,2,AVAILABLE,44508,Sejours et Affaires Paris Vitry Hotel,Vitry-sur-Seine,2 *,Yes,0,43.4300,EUR,,,720689,Double Room Studio (Without Breakfast),3,AVAILABLE,720690,Twin Room Studio (Without Breakfast),2,AVAILABLE
+793784,Twin Room,2,AVAILABLE,793785,Double Room,3,AVAILABLE,46974,Royal Mansart Hotel - NON REFUNDABLE ROOM,Blanche,3 *,Yes,0,66.6300,EUR,,,,,,,,,,
+962514,Twin Room (Without Breakfast),2,AVAILABLE,962515,Double Room (Without Breakfast),3,AVAILABLE,49417,Migny Opera Montmartre Hotel - NON REFUNDABLE ROOM,Pigalle,3 *,Yes,0,95.1800,EUR,,,,,,,,,,
+823429,Twin Room Superior,2,AVAILABLE,923112,Double Room Classic,3,AVAILABLE,49889,Pavillon Opera Grands Boulevards - NON REFUNDABLE ROOM,Grands Blvd,3 *,Yes,0,155.2700,EUR,,,,,,,,,,
+908793,Double Room Classic,3,AVAILABLE,,,,,49893,Pavillon Nation Hotel - NON REFUNDABLE ROOM,Nation,3 *,Yes,0,147.1500,EUR,,,,,,,,,,
+823591,Double Room Superior,3,AVAILABLE,823595,Twin Room Classic,2,AVAILABLE,49895,Normandy Hotel Paris - NON REFUNDABLE ROOM,Palais Royal Musee du Louvre,4 *,Yes,0,199.9200,EUR,,,908669,Twin Room Superior,2,AVAILABLE,,,,
+908481,Double Room Classic,3,AVAILABLE,908482,Twin Room Classic,2,AVAILABLE,49898,Pavillon Porte de Versailles Hotel - NON REFUNDABLE ROOM,Porte de Versailles,3 *,Yes,0,115.6900,EUR,,,,,,,,,,
+908624,Double Room Classic,3,AVAILABLE,,,,,49900,Pavillon Opera Bourse Hotel - NON REFUNDABLE ROOM,Grands Blvd,3 *,Yes,0,155.2700,EUR,,,,,,,,,,
+908876,Twin Room Classic,2,AVAILABLE,908877,Double Room Classic,3,AVAILABLE,49901,Villa Pantheon Hotel NON REFUNDABLE ROOM,Saint Michel,4 *,Yes,0,201.9500,EUR,,,,,,,,,,
+823808,Double Room Superior,3,AVAILABLE,823819,Twin Room Superior,2,AVAILABLE,49909,Villa Montparnasse Hotel - NON REFUNDABLE ROOM,Denfert-Rochereau,4 *,Yes,0,179.1500,EUR,,,908687,Twin Room Classic,2,AVAILABLE,908688,Double Room Classic,3,AVAILABLE
+909136,Double Room Classic,3,AVAILABLE,909137,Twin Room Classic,2,AVAILABLE,49928,Villa Lutece Port Royal Hotel - NON REFUNDABLE ROOM,Gobelins,4 * +,Yes,0,178.6100,EUR,5% reduction on rates,,,,,,,,,
+908570,Twin Room Classic,2,AVAILABLE,908571,Double Room Classic,3,AVAILABLE,49932,Villa Luxembourg Hotel - NON REFUNDABLE ROOM,Vavin,4 *,Yes,0,181.6500,EUR,,,,,,,,,,

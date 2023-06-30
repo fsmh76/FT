@@ -1,0 +1,4 @@
+HotelCode,HotelsName,Location,Rating,LowestPrice,Currency,IsReady,AvailableRooms/AvailableRoom/0/RoomCode,AvailableRooms/AvailableRoom/0/RoomName,AvailableRooms/AvailableRoom/0/Occupancy,AvailableRooms/AvailableRoom/0/Status,AvailableRooms/AvailableRoom/1/RoomCode,AvailableRooms/AvailableRoom/1/RoomName,AvailableRooms/AvailableRoom/1/Occupancy,AvailableRooms/AvailableRoom/1/Status,AvailableRooms/AvailableRoom/2/RoomCode,AvailableRooms/AvailableRoom/2/RoomName,AvailableRooms/AvailableRoom/2/Occupancy,AvailableRooms/AvailableRoom/2/Status,AvailableRooms/AvailableRoom/0/Price
+0017855,Hilton Jeddah,"Jeddah, Saudi Arabia",4,35,EUR,true,11245,Standard,1,true,12000,Double,2,true,99685,Twin,2,true,
+0018799,Ramada Continental Jeddah,"Jeddah, Saudi Arabia",3,345,USD,false,00012,Triple Standard,3,false,5477,Triple Sea View,3,false,996666,Standard Double,2,true,
+0010888,Qasr Al Sharq,"Jeddah, Saudi Arabia",5,3500,SAR,true,102432,Suite,4,true,,,,,,,,,3500
